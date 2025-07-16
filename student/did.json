@@ -1,0 +1,22 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:student-portfolio.com",
+  "verificationMethod": [
+    {
+      "id": "did:web:student-portfolio.com#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:student-portfolio.com",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "o2R-xNlRL4GM8cNrlBdEVrTB2qT8LOoZiDcovvLRIGY"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:student-portfolio.com#key-1"
+  ],
+  "authentication": [
+    "did:web:student-portfolio.com#key-1"
+  ]
+}
