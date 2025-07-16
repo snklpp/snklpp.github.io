@@ -1,0 +1,22 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:university.example.com",
+  "verificationMethod": [
+    {
+      "id": "did:web:university.example.com#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:university.example.com",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "jPc2054TDPEKUzSCeuA97Zg6kI6dDBqV1LhJD3tfFAQ"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:university.example.com#key-1"
+  ],
+  "authentication": [
+    "did:web:university.example.com#key-1"
+  ]
+}
