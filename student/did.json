@@ -1,22 +1,22 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:student-portfolio.com",
+  "id": "did:web:snklpp.github.io:student",
   "verificationMethod": [
     {
-      "id": "did:web:student-portfolio.com#key-1",
+      "id": "did:web:snklpp.github.io:student#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:student-portfolio.com",
+      "controller": "did:web:snklpp.github.io:student",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "o2R-xNlRL4GM8cNrlBdEVrTB2qT8LOoZiDcovvLRIGY"
+        "x": "WAokkoyrRW8bqXkoSchU4Lb_plxkPpTVieQUIpxmDOs"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:student-portfolio.com#key-1"
+    "did:web:snklpp.github.io:student#key-1"
   ],
   "authentication": [
-    "did:web:student-portfolio.com#key-1"
+    "did:web:snklpp.github.io:student#key-1"
   ]
 }
