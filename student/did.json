@@ -1,5 +1,8 @@
 {
-  "@context": "https://www.w3.org/ns/did/v1",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
   "id": "did:web:snklpp.github.io:student",
   "verificationMethod": [
     {
@@ -9,14 +12,14 @@
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "WAokkoyrRW8bqXkoSchU4Lb_plxkPpTVieQUIpxmDOs"
+        "x": "8K-vUHQ7HUnq6uv7oi59muqlX3G7aspEhQ0CxDBn0gY"
       }
     }
   ],
-  "assertionMethod": [
+  "authentication": [
     "did:web:snklpp.github.io:student#key-1"
   ],
-  "authentication": [
+  "assertionMethod": [
     "did:web:snklpp.github.io:student#key-1"
   ]
 }
