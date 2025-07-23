@@ -9,10 +9,10 @@
       "id": "did:web:snklpp.github.io:university#key-1",
       "type": "JsonWebKey2020",
       "controller": "did:web:snklpp.github.io:university",
-      "publicKeyJwkz̄": {
+      "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "WHCAslemcAHhYe0_Zp-HwfO2L-vfr8xNeb8BfM-YwqA"
+        "x": "t6H40NzJoGyPRFl-6s4Hfsjr7Z1TI1XssrZ94SQEkOg"
       }
     }
   ],
